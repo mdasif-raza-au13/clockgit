@@ -24,3 +24,18 @@ body{
 #day{
     font-size: 5.5rem;
 }
+@media only screen and (max-width: 600px){
+    .container {width: 93%;
+        text-align: center;
+        margin-top: 8rem;
+        margin-left: 1rem;
+        padding-bottom: 2rem;
+        box-shadow: 0 1rem 3rem 0;
+    }
+    #time{
+        font-size: 4rem;
+    }
+    #day{
+        font-size: 3.5rem;
+    }
+}
